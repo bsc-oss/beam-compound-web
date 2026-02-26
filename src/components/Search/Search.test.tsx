@@ -1,0 +1,24 @@
+/*
+Copyright 2023 New Vector Ltd.
+
+SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+Please see LICENSE files in the repository root for full details.
+*/
+
+import { describe, it, expect } from "vitest";
+import { render } from "@testing-library/react";
+import React from "react";
+
+import { Search } from "./Search";
+import { Form } from "@radix-ui/react-form";
+
+describe("Search", () => {
+  it("renders", () => {
+    const { asFragment } = render(
+      <Form>
+        <Search name="search" />
+      </Form>,
+    );
+    expect(asFragment()).toMatchSnapshot();
+  });
+});

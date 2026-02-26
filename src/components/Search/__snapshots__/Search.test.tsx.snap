@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Search > renders 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      class="_label_af3470 _field_af3470 _search_7f1f6b"
+      for="_r_0_"
+    >
+      <svg
+        class="_icon_7f1f6b"
+        fill="currentColor"
+        height="20"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.05 16.463a7.5 7.5 0 1 1 1.414-1.414l3.243 3.244a1 1 0 0 1-1.414 1.414zM16 10.5a5.5 5.5 0 1 0-11 0 5.5 5.5 0 0 0 11 0"
+        />
+      </svg>
+      <input
+        class="_input_7f1f6b"
+        id="_r_0_"
+        name="search"
+        placeholder="Search…"
+        type="search"
+      />
+    </label>
+  </form>
+</DocumentFragment>
+`;

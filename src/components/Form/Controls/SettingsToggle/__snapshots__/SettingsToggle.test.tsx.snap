@@ -1,0 +1,178 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Toggle > renders 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="_inline-field_af3470"
+    >
+      <div
+        class="_inline-field-control_af3470"
+      >
+        <div
+          class="_container_d9763f"
+        >
+          <input
+            class="_input_d9763f"
+            id="_r_0_"
+            role="switch"
+            type="checkbox"
+          />
+          <div
+            class="_ui_d9763f"
+          />
+        </div>
+      </div>
+      <div
+        class="_inline-field-body_af3470"
+      >
+        <label
+          class="_label_af3470"
+          for="_r_0_"
+        >
+          Simple setting
+        </label>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Toggle > renders with a help message 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="_inline-field_af3470"
+    >
+      <div
+        class="_inline-field-control_af3470"
+      >
+        <div
+          class="_container_d9763f"
+        >
+          <input
+            class="_input_d9763f"
+            id="_r_2_"
+            role="switch"
+            type="checkbox"
+          />
+          <div
+            class="_ui_d9763f"
+          />
+        </div>
+      </div>
+      <div
+        class="_inline-field-body_af3470"
+      >
+        <label
+          class="_label_af3470"
+          for="_r_2_"
+        >
+          Simple setting
+        </label>
+        <span
+          class="_message_af3470 _help-message_af3470"
+          id="radix-_r_4_"
+        >
+          A simple setting to control things
+        </span>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`renders with a disabled message (disabled=false) 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="_inline-field_af3470"
+    >
+      <div
+        class="_inline-field-control_af3470"
+      >
+        <div
+          class="_container_d9763f"
+        >
+          <input
+            class="_input_d9763f"
+            id="_r_9_"
+            role="switch"
+            type="checkbox"
+          />
+          <div
+            class="_ui_d9763f"
+          />
+        </div>
+      </div>
+      <div
+        class="_inline-field-body_af3470"
+      >
+        <label
+          class="_label_af3470"
+          for="_r_9_"
+        >
+          Simple setting
+        </label>
+        <span
+          class="_message_af3470 _help-message_af3470"
+          id="radix-_r_b_"
+        >
+          A simple setting to control things
+        </span>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`renders with a disabled message (disabled=true) 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="_inline-field_af3470"
+    >
+      <div
+        class="_inline-field-control_af3470"
+      >
+        <div
+          class="_container_d9763f"
+        >
+          <input
+            class="_input_d9763f"
+            disabled=""
+            id="_r_5_"
+            role="switch"
+            type="checkbox"
+          />
+          <div
+            class="_ui_d9763f"
+          />
+        </div>
+      </div>
+      <div
+        class="_inline-field-body_af3470"
+      >
+        <label
+          class="_label_af3470"
+          for="_r_5_"
+        >
+          Simple setting
+        </label>
+        <span
+          class="_message_af3470 _help-message_af3470"
+          id="radix-_r_7_"
+        >
+          A simple setting to control things
+        </span>
+        <span
+          class="_message_af3470 _help-message_af3470"
+          id="radix-_r_8_"
+        >
+          This is disabled.
+        </span>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

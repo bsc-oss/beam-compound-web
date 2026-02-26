@@ -1,0 +1,210 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ReleaseAnnouncement > renders 1`] = `
+<div
+  aria-describedby="_r_1_"
+  aria-labelledby="_r_0_"
+  class="_content_4b2dd5"
+  data-floating-ui-focusable=""
+  id="_r_2_"
+  role="dialog"
+  style="position: absolute; left: 0px; top: 0px; transform: translate(16px, 50px);"
+  tabindex="-1"
+>
+  <svg
+    aria-hidden="true"
+    class="_arrow_4b2dd5"
+    height="20"
+    style="position: absolute; pointer-events: none; right: calc(100% - 0px); transform: rotate(90deg); top: -1px;"
+    viewBox="0 0 20 20"
+    width="20"
+  >
+    <path
+      d="M0,0 H20 L10,12 Q10,12 10,12 Z"
+      stroke="none"
+    />
+    <clippath
+      id="_r_5_"
+    >
+      <rect
+        height="20"
+        width="20"
+        x="0"
+        y="0"
+      />
+    </clippath>
+  </svg>
+  <h3
+    class="_typography_61e060 _font-body-lg-semibold_61e060 _header_4b2dd5"
+    id="_r_0_"
+  >
+    Notifications have moved
+  </h3>
+  <span
+    class="_typography_61e060 _font-body-sm-regular_61e060 _description_4b2dd5"
+    id="_r_1_"
+  >
+    From now on, click the icon here to view your notifications.
+  </span>
+  <button
+    class="_button_0829c1 _button_4b2dd5"
+    data-kind="secondary"
+    data-size="sm"
+    role="button"
+    tabindex="0"
+  >
+    Ok
+  </button>
+</div>
+`;
+
+exports[`ReleaseAnnouncement > renders the component at the bottom of the trigger button 1`] = `
+<div
+  aria-describedby="_r_d_"
+  aria-labelledby="_r_c_"
+  class="_content_4b2dd5"
+  data-floating-ui-focusable=""
+  id="_r_e_"
+  role="dialog"
+  style="position: absolute; left: 0px; top: 0px; transform: translate(50px, 16px);"
+  tabindex="-1"
+>
+  <svg
+    aria-hidden="true"
+    class="_arrow_4b2dd5"
+    height="20"
+    style="position: absolute; pointer-events: none; bottom: 100%; transform: rotate(180deg); left: -1px;"
+    viewBox="0 0 20 20"
+    width="20"
+  >
+    <path
+      d="M0,0 H20 L10,12 Q10,12 10,12 Z"
+      stroke="none"
+    />
+    <clippath
+      id="_r_h_"
+    >
+      <rect
+        height="20"
+        width="20"
+        x="0"
+        y="0"
+      />
+    </clippath>
+  </svg>
+  <h3
+    class="_typography_61e060 _font-body-lg-semibold_61e060 _header_4b2dd5"
+    id="_r_c_"
+  >
+    Notifications have moved
+  </h3>
+  <span
+    class="_typography_61e060 _font-body-sm-regular_61e060 _description_4b2dd5"
+    id="_r_d_"
+  >
+    From now on, click the icon here to view your notifications.
+  </span>
+  <button
+    class="_button_0829c1 _button_4b2dd5"
+    data-kind="secondary"
+    data-size="sm"
+    role="button"
+    tabindex="0"
+  >
+    Ok
+  </button>
+</div>
+`;
+
+exports[`ReleaseAnnouncement > renders with a long label header and description 1`] = `
+<div
+  aria-describedby="_r_7_"
+  aria-labelledby="_r_6_"
+  class="_content_4b2dd5"
+  data-floating-ui-focusable=""
+  id="_r_8_"
+  role="dialog"
+  style="position: absolute; left: 0px; top: 0px; transform: translate(16px, 50px);"
+  tabindex="-1"
+>
+  <svg
+    aria-hidden="true"
+    class="_arrow_4b2dd5"
+    height="20"
+    style="position: absolute; pointer-events: none; right: calc(100% - 0px); transform: rotate(90deg); top: -1px;"
+    viewBox="0 0 20 20"
+    width="20"
+  >
+    <path
+      d="M0,0 H20 L10,12 Q10,12 10,12 Z"
+      stroke="none"
+    />
+    <clippath
+      id="_r_b_"
+    >
+      <rect
+        height="20"
+        width="20"
+        x="0"
+        y="0"
+      />
+    </clippath>
+  </svg>
+  <h3
+    class="_typography_61e060 _font-body-lg-semibold_61e060 _header_4b2dd5"
+    id="_r_6_"
+  >
+    A multi line header which is taking multiple lines
+  </h3>
+  <span
+    class="_typography_61e060 _font-body-sm-regular_61e060 _description_4b2dd5"
+    id="_r_7_"
+  >
+    A multi line description which is taking multiple lines. The OK button should be vertically centred.
+  </span>
+  <button
+    class="_button_0829c1 _button_4b2dd5"
+    data-kind="secondary"
+    data-size="sm"
+    role="button"
+    tabindex="0"
+  >
+    Ok
+  </button>
+</div>
+`;
+
+exports[`ReleaseAnnouncement > renders without an arrow 1`] = `
+<div
+  aria-describedby="_r_n_"
+  aria-labelledby="_r_m_"
+  class="_content_4b2dd5"
+  data-floating-ui-focusable=""
+  id="_r_o_"
+  role="dialog"
+  style="position: absolute; left: 0px; top: 0px; transform: translate(16px, 50px);"
+  tabindex="-1"
+>
+  <h3
+    class="_typography_61e060 _font-body-lg-semibold_61e060 _header_4b2dd5"
+    id="_r_m_"
+  >
+    Notifications have moved
+  </h3>
+  <span
+    class="_typography_61e060 _font-body-sm-regular_61e060 _description_4b2dd5"
+    id="_r_n_"
+  >
+    From now on, click the icon here to view your notifications.
+  </span>
+  <button
+    class="_button_0829c1 _button_4b2dd5"
+    data-kind="secondary"
+    data-size="sm"
+    role="button"
+    tabindex="0"
+  >
+    Ok
+  </button>
+</div>
+`;

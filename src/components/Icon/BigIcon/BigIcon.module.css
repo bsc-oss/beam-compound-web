@@ -1,0 +1,56 @@
+/*
+Copyright 2026 Belgian Secure Communications (BSC)
+Copyright 2024 New Vector Ltd.
+
+SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+Please see LICENSE files in the repository root for full details.
+
+Modified by Belgian Secure Communications for Beam application on 2026-02-09
+*/
+
+.content {
+  display: inline-flex;
+
+  /* PG_CHANGED */
+  background-color: var(--cpd-color-bg-subtle-tertiary);
+
+  padding: var(--cpd-space-4x);
+  border-radius: var(--cpd-space-2x);
+
+  /* PG_CHANGED */
+  color: var(--cpd-color-icon-quaternary);
+
+  > svg {
+    inline-size: 32px;
+    block-size: 32px;
+  }
+}
+
+.content[data-size="medium"] {
+  padding: var(--cpd-space-3x);
+}
+
+.content[data-size="small"] {
+  padding: var(--cpd-space-3x);
+
+  > svg {
+    inline-size: 24px;
+    block-size: 24px;
+  }
+}
+
+.destructive {
+  background-color: var(--cpd-color-bg-critical-subtle);
+  color: var(--cpd-color-icon-critical-primary);
+}
+
+.success {
+  background-color: var(--cpd-color-bg-success-subtle);
+  color: var(--cpd-color-icon-success-primary);
+}
+
+@media (forced-colors: active) {
+  .content {
+    outline: 1px solid transparent;
+  }
+}

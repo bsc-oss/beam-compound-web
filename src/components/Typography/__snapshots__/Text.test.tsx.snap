@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Body > renders 1`] = `
+<DocumentFragment>
+  <p
+    class="_typography_61e060 _font-body-md-regular_61e060"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</DocumentFragment>
+`;
