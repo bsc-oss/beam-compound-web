@@ -1,0 +1,20 @@
+.DS_Store
+node_modules
+
+.build
+storybook-static
+
+dist
+.stylelintcache
+
+yarn-error.log
+coverage
+yarn-error.log
+
+/playwright-report
+/test-results
+
+.npmrc
+
+# PG_SPECIFIC
+custom-cas/

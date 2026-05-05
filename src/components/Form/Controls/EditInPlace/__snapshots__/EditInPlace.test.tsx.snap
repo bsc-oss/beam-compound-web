@@ -1,0 +1,409 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`EditInPlace > disables control when disabled 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+    >
+      <label
+        class="_label_af3470"
+        for="radix-_r_6o_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          class="_control_958ff8"
+          disabled=""
+          id="radix-_r_6o_"
+          name="input"
+          title=""
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > displays saved label for 2 seconds after save 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+    >
+      <label
+        class="_label_af3470"
+        for="radix-_r_59_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          class="_control_958ff8"
+          id="radix-_r_59_"
+          name="input"
+          title=""
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > displays saved label for 2 seconds after save 2`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+      data-valid="true"
+    >
+      <label
+        class="_label_af3470"
+        data-valid="true"
+        for="radix-_r_59_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          aria-describedby="radix-_r_5m_"
+          class="_control_958ff8"
+          data-valid="true"
+          disabled=""
+          id="radix-_r_59_"
+          name="input"
+          title=""
+        />
+        <div
+          class="_button-group_f26f0a"
+        >
+          <button
+            aria-disabled="true"
+            aria-labelledby="_r_5a_"
+            class="_button_0829c1 _has-icon_0829c1 _icon-only_0829c1"
+            data-kind="primary"
+            data-size="sm"
+            role="button"
+            tabindex="0"
+            type="submit"
+          >
+            <svg
+              aria-hidden="true"
+              class="_icon_0829c1"
+              fill="currentColor"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.55 17.575q-.2 0-.375-.062a.9.9 0 0 1-.325-.213L4.55 13q-.274-.274-.262-.713.012-.437.287-.712a.95.95 0 0 1 .7-.275q.425 0 .7.275L9.55 15.15l8.475-8.475q.274-.275.713-.275.437 0 .712.275.275.274.275.713 0 .437-.275.712l-9.2 9.2q-.15.15-.325.212a1.1 1.1 0 0 1-.375.063"
+              />
+            </svg>
+          </button>
+          <button
+            aria-disabled="true"
+            aria-labelledby="_r_5f_"
+            class="_button_0829c1 _button_f26f0a _has-icon_0829c1 _icon-only_0829c1"
+            data-kind="secondary"
+            data-size="sm"
+            role="button"
+            tabindex="0"
+            type="reset"
+          >
+            <svg
+              aria-hidden="true"
+              class="_icon_0829c1"
+              fill="currentColor"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.293 6.293a1 1 0 0 1 1.414 0L12 10.586l4.293-4.293a1 1 0 1 1 1.414 1.414L13.414 12l4.293 4.293a1 1 0 0 1-1.414 1.414L12 13.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L10.586 12 6.293 7.707a1 1 0 0 1 0-1.414"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <span
+        class="_message_af3470"
+        id="radix-_r_5m_"
+      >
+        <svg
+          class="_icon_8010b4"
+          fill="currentColor"
+          height="1em"
+          style="width: 20px; height: 20px;"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12 4.031a8 8 0 1 0 8 8 1 1 0 0 1 2 0c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10a1 1 0 1 1 0 2"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Saving...
+      </span>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > displays saved label for 2 seconds after save 3`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+      data-valid="true"
+    >
+      <label
+        class="_label_af3470"
+        data-valid="true"
+        for="radix-_r_59_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          aria-describedby="radix-_r_5n_"
+          class="_control_958ff8"
+          data-valid="true"
+          id="radix-_r_59_"
+          name="input"
+          title=""
+        />
+      </div>
+      <span
+        class="_message_af3470 _success-message_af3470"
+        id="radix-_r_5n_"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m10.6 13.8-2.15-2.15a.95.95 0 0 0-.7-.275.95.95 0 0 0-.7.275.95.95 0 0 0-.275.7q0 .425.275.7L9.9 15.9q.3.3.7.3t.7-.3l5.65-5.65a.95.95 0 0 0 .275-.7.95.95 0 0 0-.275-.7.95.95 0 0 0-.7-.275.95.95 0 0 0-.7.275zM12 22a9.7 9.7 0 0 1-3.9-.788 10.1 10.1 0 0 1-3.175-2.137q-1.35-1.35-2.137-3.175A9.7 9.7 0 0 1 2 12q0-2.075.788-3.9a10.1 10.1 0 0 1 2.137-3.175q1.35-1.35 3.175-2.137A9.7 9.7 0 0 1 12 2q2.075 0 3.9.788a10.1 10.1 0 0 1 3.175 2.137q1.35 1.35 2.137 3.175A9.7 9.7 0 0 1 22 12a9.7 9.7 0 0 1-.788 3.9 10.1 10.1 0 0 1-2.137 3.175q-1.35 1.35-3.175 2.137A9.7 9.7 0 0 1 12 22"
+          />
+        </svg>
+        Saved
+      </span>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > renders 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+    >
+      <label
+        class="_label_af3470"
+        for="radix-_r_0_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          class="_control_958ff8"
+          id="radix-_r_0_"
+          name="input"
+          title=""
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > renders error icon and text if passed as children 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+      data-invalid="true"
+    >
+      <label
+        class="_label_af3470"
+        data-invalid="true"
+        for="radix-_r_f_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          aria-describedby="radix-_r_g_"
+          aria-invalid="true"
+          class="_control_958ff8"
+          data-invalid="true"
+          id="radix-_r_f_"
+          name="input"
+          title=""
+        />
+        <div
+          class="_button-group_f26f0a"
+        >
+          <button
+            aria-disabled="true"
+            aria-labelledby="_r_h_"
+            class="_button_0829c1 _has-icon_0829c1 _icon-only_0829c1"
+            data-kind="primary"
+            data-size="sm"
+            role="button"
+            tabindex="0"
+            type="submit"
+          >
+            <svg
+              aria-hidden="true"
+              class="_icon_0829c1"
+              fill="currentColor"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.55 17.575q-.2 0-.375-.062a.9.9 0 0 1-.325-.213L4.55 13q-.274-.274-.262-.713.012-.437.287-.712a.95.95 0 0 1 .7-.275q.425 0 .7.275L9.55 15.15l8.475-8.475q.274-.275.713-.275.437 0 .712.275.275.274.275.713 0 .437-.275.712l-9.2 9.2q-.15.15-.325.212a1.1 1.1 0 0 1-.375.063"
+              />
+            </svg>
+          </button>
+          <button
+            aria-disabled="false"
+            aria-labelledby="_r_m_"
+            class="_button_0829c1 _button_f26f0a _has-icon_0829c1 _icon-only_0829c1"
+            data-kind="secondary"
+            data-size="sm"
+            role="button"
+            tabindex="0"
+            type="reset"
+          >
+            <svg
+              aria-hidden="true"
+              class="_icon_0829c1"
+              fill="currentColor"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.293 6.293a1 1 0 0 1 1.414 0L12 10.586l4.293-4.293a1 1 0 1 1 1.414 1.414L13.414 12l4.293 4.293a1 1 0 0 1-1.414 1.414L12 13.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L10.586 12 6.293 7.707a1 1 0 0 1 0-1.414"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <span
+        class="_message_af3470 _error-message_af3470"
+        id="radix-_r_g_"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 17q.424 0 .713-.288A.97.97 0 0 0 13 16a.97.97 0 0 0-.287-.713A.97.97 0 0 0 12 15a.97.97 0 0 0-.713.287A.97.97 0 0 0 11 16q0 .424.287.712.288.288.713.288m0-4q.424 0 .713-.287A.97.97 0 0 0 13 12V8a.97.97 0 0 0-.287-.713A.97.97 0 0 0 12 7a.97.97 0 0 0-.713.287A.97.97 0 0 0 11 8v4q0 .424.287.713.288.287.713.287m0 9a9.7 9.7 0 0 1-3.9-.788 10.1 10.1 0 0 1-3.175-2.137q-1.35-1.35-2.137-3.175A9.7 9.7 0 0 1 2 12q0-2.075.788-3.9a10.1 10.1 0 0 1 2.137-3.175q1.35-1.35 3.175-2.137A9.7 9.7 0 0 1 12 2q2.075 0 3.9.788a10.1 10.1 0 0 1 3.175 2.137q1.35 1.35 2.137 3.175A9.7 9.7 0 0 1 22 12a9.7 9.7 0 0 1-.788 3.9 10.1 10.1 0 0 1-2.137 3.175q-1.35 1.35-3.175 2.137A9.7 9.7 0 0 1 12 22"
+          />
+        </svg>
+        Missing Left Falangey
+      </span>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > uses native form validation logic 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+    >
+      <label
+        class="_label_af3470"
+        for="radix-_r_t_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          class="_control_958ff8"
+          id="radix-_r_t_"
+          name="input"
+          required=""
+          title=""
+          type="email"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`EditInPlace > uses the custom error messages passed as children 1`] = `
+<DocumentFragment>
+  <form
+    class="_root_af3470"
+  >
+    <div
+      class="_field_af3470"
+    >
+      <label
+        class="_label_af3470"
+        for="radix-_r_1c_"
+      >
+        Edit Me
+      </label>
+      <div
+        class="_controls_f26f0a"
+      >
+        <input
+          class="_control_958ff8"
+          id="radix-_r_1c_"
+          name="input"
+          title=""
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
