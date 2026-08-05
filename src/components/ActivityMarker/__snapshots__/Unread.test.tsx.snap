@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Unread > should render 1`] = `
+<DocumentFragment>
+  <div
+    class="_unread_65464f"
+  >
+    <div />
+  </div>
+</DocumentFragment>
+`;

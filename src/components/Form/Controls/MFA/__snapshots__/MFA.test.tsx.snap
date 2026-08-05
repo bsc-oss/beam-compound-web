@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PasswordControl > renders 1`] = `
+<DocumentFragment>
+  <form>
+    <div>
+      <label
+        for="radix-_r_0_"
+      >
+        MFA
+      </label>
+      <div
+        class="_container_8dfd49"
+      >
+        <input
+          autocomplete="one-time-code"
+          class="_control_8dfd49"
+          id="radix-_r_0_"
+          inputmode="numeric"
+          maxlength="6"
+          minlength="0"
+          name="mfa"
+          pattern="\\d{6}"
+          placeholder="000000"
+          title=""
+          type="text"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+        <div
+          aria-hidden="true"
+          class="_digit_8dfd49"
+        />
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
